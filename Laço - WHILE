@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOlNlUh73awqslYA8S0XkF0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fabzt/codigos-iniciais/blob/main/La%C3%A7o%20-%20WHILE\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# laço WHILE"
+      ],
+      "metadata": {
+        "id": "QFVmqfdVWrmq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cxad12FSWRla",
+        "outputId": "69f932b6-247c-44ca-d319-cde1c2d15647"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n",
+            "12\n",
+            "14\n",
+            "16\n",
+            "18\n",
+            "Loop concluído\n"
+          ]
+        }
+      ],
+      "source": [
+        "cont = 0\n",
+        "while cont < 20:\n",
+        "  print(cont)\n",
+        "  cont += 2\n",
+        "else:\n",
+        "  print(\"Loop concluído\")\n"
+      ]
+    }
+  ]
+}
